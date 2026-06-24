@@ -1,1 +1,538 @@
-{"sections":{"main":{"type":"main-product","blocks":{"judge_me_reviews_preview_badge_hiUQPq":{"type":"shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8","disabled":true,"settings":{}},"vendor":{"type":"text","disabled":true,"settings":{"text":"{{ product.vendor }}","text_style":"body"}},"title":{"type":"title","disabled":true,"settings":{}},"rating":{"type":"rating","disabled":true,"settings":{}},"price":{"type":"price","disabled":true,"settings":{}},"variant_picker":{"type":"variant_picker","disabled":true,"settings":{"picker_type":"button","swatch_shape":"circle"}},"quantity_selector":{"type":"quantity_selector","disabled":true,"settings":{}},"custom_liquid_YX494w":{"type":"custom_liquid","name":"Título","settings":{"custom_liquid":"<div class=\"product-section-title\">\n  <h2>Gominolas de Algas Marinas</h2>\n  <p>100% Natural | Vegano | Sin gluten | Sin-OGM\n</div>\n\n<style>\n.product-section-title {\n  font-family: Questrial, sans-serif;\n  text-align: left; /* Ajusta según necesites */\n  margin-bottom: 1.2px; /* Espacio debajo de la sección */\n}\n\n.product-section-title h2 {\n  font-weight: bold;\n  font-size: 29px; /* Tamaño del título, ajustable */\n  margin: 0;\n  line-height: 1.2;\n}\n\n.product-section-title p {\n  font-weight: normal;\n  font-size: 14px; /* Tamaño del subtítulo */\n  color: #000000; /* Color negro */\n  margin: 4px 0 0 0;\n}\n</style>"}},"custom_liquid_aUVmiH":{"type":"custom_liquid","name":"Reseñas estrella","settings":{"custom_liquid":"<div class=\"dd0-rating-inline\">\n  <span class=\"stars\">★★★★★</span>\n  <span class=\"text\"> 4.8/5 (4,683 Reseñas)\n</span>\n</div>\n\n<style>\n.dd0-rating-inline {\n font-family: Questrial, sans-serif;\n  display: flex;\n  align-items: center;\n  gap: 3.5px;\n  font-family: Arial, sans-serif;\n  margin: 5px 0 !important;\n}\n\n.dd0-rating-inline .stars {\n font-family: Questrial, sans-serif;\n  color: #1080f0 !important; /* celeste azulado */\n  font-size: 21px; /* TRIPLE tamaño aprox */\n  line-height: 1;\n\n}\n\n.dd0-rating-inline .rating-text {\n  font-size: 16px;\n  line-height: 1.2;\n  color: #000000 !important; /* negro puro */\n  font-weight: 600;\n}\n</style>"}},"custom_liquid_AxMkb4":{"type":"custom_liquid","name":"Beneficios","settings":{"custom_liquid":"<style>\n  .benefits-list {\n    font-family: Questrial, Helvetica, sans-serif;\n    list-style: none;\n    padding: 0;\n    margin: 0.3;\n  }\n\n  .benefits-list li {\n    display: flex;\n    align-items: center;\n    gap: 10px;\n    margin-bottom: 1px;\n    font-size: 16px;\n    color: #000;\n  }\n\n  .benefits-list .check {\n    width: 18px;\n    height: 18px;\n    min-width: 18px;\n    border-radius: 50%;\n    background-color: #1080f0; /* celeste azulado */\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    color: #fff;\n    font-size: 12px;\n    font-weight: bold;\n  }\n</style>\n\n<ul class=\"benefits-list\">\n  <li>\n    <span class=\"check\">✓</span>\n    <span>Refuerza tu sistema inmunológico</span>\n  </li>\n  <li>\n    <span class=\"check\">✓</span>\n    <span>Mejora la salud digestiva</span>\n  </li>\n  <li>\n    <span class=\"check\">✓</span>\n    <span>Impulsa el metabolismo y energía</span>\n  </li>\n  <li>\n    <span class=\"check\">✓</span>\n    <span>Promueve salud cardiovascular</span>\n  </li>\n  <li>\n    <span class=\"check\">✓</span>\n    <span>Deliciosas y fáciles de consumir</span>\n  </li>\n</ul>"}},"custom_liquid_aMBdYf":{"type":"custom_liquid","settings":{"custom_liquid":"<div class=\"dd0-featuredReview-section\">\n\n  <div class=\"dd0-featuredReview-wrapper\" id=\"reviewSlider\">\n\n    <!-- Review 1 -->\n    <div class=\"dd0-featuredReview\">\n      <img class=\"reviewImg\" src=\"{{ 'resena-1.png' | file_url }}" alt=\"Review\">\n      <div class=\"content\">\n        <div class=\"review\">\n          \"Estas son <strong>las mejores gominolas de algas marinas que he probado</strong>. Me ayudaron a sentirme con más energía y mi digestión mejoró notablemente en pocas semanas.\"\n        </div>\n        <div class=\"author\">\n          <span class=\"verified\"></span>\n          Nut. Carlos Méndez\n        </div>\n      </div>\n    </div>\n\n    <!-- Review 2 -->\n    <div class=\"dd0-featuredReview\">\n      <img class=\"reviewImg\" src=\"{{ 'resena-3.png' | file_url }}" alt=\"Review\">\n      <div class=\"content\">\n        <div class=\"review\">\n          \"Después de tomar estas gominolas durante tres meses, <strong>tengo más energía y me siento revitalizado</strong>. Increíble cómo un suplemento natural puede hacer una diferencia tan grande.\"\n        </div>\n        <div class=\"author\">\n          <span class=\"verified\"></span>\n          Fátima M., 32\n        </div>\n      </div>\n    </div>\n\n    <!-- Review 3 -->\n    <div class=\"dd0-featuredReview\">\n      <img class=\"reviewImg\" src=\"{{ 'resena-2.png' | file_url }}" alt=\"Review\">\n      <div class=\"content\">\n        <div class=\"review\">\n          \"Las gominolas de algas marinas me han transformado la rutina diaria. <strong>Mi piel brilla, tengo más vitalidad y mi digestión es perfecta</strong> ahora.\"\n        </div>\n        <div class=\"author\">\n          <span class=\"verified\"></span>\n          Jorge F., 29\n        </div>\n      </div>\n    </div>\n\n  </div>\n\n  <!-- Indicadores -->\n  <div class=\"dd0-dots\" id=\"reviewDots\">\n    <span class=\"active\"></span>\n    <span></span>\n    <span></span>\n  </div>\n\n</div>\n\n\n\n<style>\n.dd0-featuredReview-section {\n  overflow: hidden;\n  font-family: Arial, sans-serif;\n}\n\n.dd0-featuredReview-wrapper {\n  display: flex;\n  gap: 14px; /* separación entre sliders */\n  overflow-x: auto;\n  scroll-snap-type: x mandatory;\n  scrollbar-width: none;\n  -webkit-overflow-scrolling: touch;\n  padding: 0 7px; /* evita que se asome el siguiente */\n}\n\n.dd0-featuredReview-wrapper::-webkit-scrollbar {\n  display: none;\n}\n\n.dd0-featuredReview {\n  flex: 0 0 calc(100% - 14px);\n  box-sizing: border-box;\n  display: flex;\n  gap: 16px;\n  padding: 18px;\n  background: #eaf6ff;\n  border-radius: 14px;\n  scroll-snap-align: center;\n}\n\n.reviewImg {\n  width: 58px;\n  height: 58px;\n  border-radius: 50%;\n  flex-shrink: 0;\n}\n\n.content {\n  display: flex;\n  flex-direction: column;\n  gap: 8px;\n}\n\n.review {\n  font-size: 13px;\n  line-height: 18px;\n}\n\n.author {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n  font-size: 14px;\n  font-weight: 600;\n  font-style: italic;\n}\n\n/* Check verificado */\n.verified {\n  width: 16px;\n  height: 16px;\n  background-image: url(\"data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%232C95E9' d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14.2l-3.5-3.5 1.4-1.4L11 13.4l4.6-4.6 1.4 1.4L11 16.2z'/%3E%3C/svg%3E\");\n  background-size: contain;\n  background-repeat: no-repeat;\n}\n\n/* Puntitos */\n.dd0-dots {\n  display: flex;\n  justify-content: center;\n  gap: 6px;\n  margin-top: 8px;\n}\n\n.dd0-dots span {\n  width: 6px;\n  height: 6px;\n  border-radius: 50%;\n  background: #b6def6;\n}\n\n.dd0-dots span.active {\n  background: #2c95e9;\n}\n</style>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n  const slider = document.getElementById(\"reviewSlider\");\n  const dots = document.getElementById(\"reviewDots\").children;\n\n  slider.addEventListener(\"scroll\", () => {\n    const index = Math.round(slider.scrollLeft / slider.offsetWidth);\n    Array.from(dots).forEach(dot => dot.classList.remove(\"active\"));\n    if (dots[index]) dots[index].classList.add(\"active\");\n  });\n});\n</script>"}},"buy_buttons":{"type":"buy_buttons","settings":{"show_dynamic_checkout":true,"show_gift_card_recipient":true}},"custom_liquid_XhMbrw":{"type":"custom_liquid","settings":{"custom_liquid":"<div class=\"dd0-alert\">\n  <div class=\"dd0-dot\" style=\"display:block!important\"></div>\n  <span class=\"dd0-message\">Solo quedan 12 unidades en stock</span>\n</div>\n\n<style>\n  :root {\n    --dd0-alert-margin-top: -15px;    /* 👈 margen superior */\n    --dd0-alert-margin-bottom: 20px; /* 👈 margen inferior */\n  }\n\n  .dd0-alert {\n    display: flex !important;\n    align-items: center;\n    gap: 8px;\n    margin-top: var(--dd0-alert-margin-top) !important;\n    margin-bottom: var(--dd0-alert-margin-bottom) !important;\n  }\n  \n  .dd0-dot {\n    width: 8px !important;\n    height: 8px !important;\n    min-width: 5px !important;\n    min-height: 5px !important;\n    background: #ff0000 !important;\n    border-radius: 50% !important;\n    animation: dd0-pulse 2s infinite !important;\n    flex-shrink: 0 !important;\n  }\n  \n  .dd0-message {\n    color: #ff0000 !important;\n    font-weight: 500;\n    font-size: 12px;\n    animation: dd0-blink 2s infinite;\n  }\n  \n  @keyframes dd0-pulse {\n    0% {\n      box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.7);\n      transform: scale(1);\n    }\n    70% {\n      box-shadow: 0 0 0 10px rgba(255, 0, 0, 0);\n      transform: scale(1.1);\n    }\n    100% {\n      box-shadow: 0 0 0 0 rgba(255, 0, 0, 0);\n      transform: scale(1);\n    }\n  }\n  \n  @keyframes dd0-blink {\n    0%, 100% { opacity: 1; }\n    50% { opacity: 0.6; }\n  }\n</style>"}},"custom_liquid_n4eUyw":{"type":"custom_liquid","settings":{"custom_liquid":"<!-- Inicio Código Imagen Shopify -->\n<style>\n  .product-custom-img-wrapper {\n    width: 100%;\n    margin: -20px 0; /* Espacio arriba y abajo */\n    text-align: center; /* Centrar imagen */\n    display: flex;\n    justify-content: center;\n  }\n  .product-custom-img-wrapper img {\n    max-width: 100%; /* No exceder el ancho del contenedor */\n    height: auto; /* Mantener proporción */\n    display: block;\n    border-radius: 8px; /* Bordes redondeados opcional */\n  }\n</style>\n\n<div class=\"product-custom-img-wrapper\">\n  <!-- REEMPLAZA LA URL DE ABAJO -->\n  <img \n    src=\"{{ 'logo-sticker.svg' | file_url }}" \n    alt=\"Descripción de la imagen para SEO\" \n    loading=\"lazy\"\n  >\n</div>\n<!-- Fin Código Imagen Shopify -->"}},"icon_with_text_bnYFDt":{"type":"icon-with-text","settings":{"layout":"horizontal","icon_1":"heart","image_1":"shopify://shop_images/icono-envio.png","heading_1":"Envio GRATIS","icon_2":"lightning_bolt","image_2":"shopify://shop_images/icono-pago.png","heading_2":"Garantia +60 dias","icon_3":"truck","image_3":"shopify://shop_images/icono-contraentrega.png","heading_3":"Paga en casa"}},"collapsible_tab_V6QpXN":{"type":"collapsible_tab","disabled":true,"settings":{"heading":"Cómo tomar","icon":"question_mark","content":"<p><br/>Tome <strong>2 gominolas diarias con un vaso de agua</strong>, preferiblemente con las comidas. <strong>Puede tomarlas en cualquier momento del día</strong> que le convenga.<br/><br/>Para mejores resultados, mantenga una ingesta consistente todos los días.<br/><br/></p>","page":""}},"collapsible_tab_iK9NTm":{"type":"collapsible_tab","settings":{"heading":"Oferta Especial","icon":"price_tag","content":"<p>Una vez finalice la oferta activa, el precio del producto volverá a su valor original.</p>","page":""}},"collapsible_tab_yt8kYN":{"type":"collapsible_tab","settings":{"heading":"Envío Gratis y Asegurado","icon":"truck","content":"<p>El <strong>envío</strong> es totalmente <strong>gratis a toda España</strong>. El tiempo de procesamiento de envío es de <strong>24 a 48 horas</strong> hábiles.</p>","page":""}},"collapsible_tab_AbphLe":{"type":"collapsible_tab","settings":{"heading":"Garantía de Reembolso de 90 días","icon":"check_mark","content":"<p>Tu pedido está <strong>100 % cubierto por nuestra garantía de devolución</strong> de 90 días.<br/>Si no estás satisfecho, solo tienes que avisarnos. <strong>Te reembolsaremos</strong> el importe total de tu pedido <strong>sin hacerte preguntas.</strong></p>","page":""}},"description":{"type":"description","settings":{}},"share":{"type":"share","disabled":true,"settings":{"share_label":"Share"}}},"block_order":["judge_me_reviews_preview_badge_hiUQPq","vendor","title","rating","price","variant_picker","quantity_selector","custom_liquid_YX494w","custom_liquid_aUVmiH","custom_liquid_AxMkb4","custom_liquid_aMBdYf","buy_buttons","custom_liquid_XhMbrw","custom_liquid_n4eUyw","icon_with_text_bnYFDt","collapsible_tab_V6QpXN","collapsible_tab_iK9NTm","collapsible_tab_yt8kYN","collapsible_tab_AbphLe","description","share"],"settings":{"enable_sticky_info":true,"color_scheme":"scheme-3","media_size":"small","constrain_to_viewport":true,"media_fit":"contain","gallery_layout":"thumbnail_slider","mobile_thumbnails":"show","media_position":"left","image_zoom":"none","hide_variants":true,"enable_video_looping":false,"padding_top":0,"padding_bottom":0}},"disclosures":{"type":"disclosures","settings":{"heading":"Información Legal","heading_size":"h2","open_by_default":false,"color_scheme":"","padding_top":36,"padding_bottom":0}},"related-products":{"type":"related-products","disabled":true,"settings":{"heading":"También te puede interesar","heading_size":"h2","products_to_show":4,"columns_desktop":4,"columns_mobile":"2","color_scheme":"scheme-1","image_ratio":"portrait","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":false,"padding_top":0,"padding_bottom":60}},"image_with_text_CAmh7m":{"type":"image-with-text","blocks":{"heading_e8H76f":{"type":"heading","settings":{"heading":"Refuerza tu Inmunidad Natural","heading_size":"h2"}},"text_iadja4":{"type":"text","settings":{"text":"<p>Las algas marinas contienen minerales y nutrientes esenciales que potencian naturalmente tu sistema inmunológico, ayudándote a mantener tu cuerpo fuerte y resistente. <br/></p>","text_style":"body"}}},"block_order":["heading_e8H76f","text_iadja4"],"name":"t:sections.image-with-text.presets.name","settings":{"image":"shopify://shop_images/lifestyle-2.png","height":"adapt","desktop_image_width":"medium","layout":"image_first","image_behavior":"none","content_layout":"no-overlap","desktop_content_position":"top","desktop_content_alignment":"center","mobile_content_alignment":"center","section_color_scheme":"scheme-3","color_scheme":"","padding_top":28,"padding_bottom":0}},"image_with_text_TcAYrQ":{"type":"image-with-text","blocks":{"heading_iFKjcT":{"type":"heading","settings":{"heading":"Energía y Vitalidad Diaria","heading_size":"h2"}},"text_WnifXa":{"type":"text","settings":{"text":"<p>Nuestras gominolas de algas marinas están enriquecidas con nutrientes que te proporcionan energía sostenida durante todo el día, sin los picos y caídas típicos de otros suplementos. </p>","text_style":"body"}}},"block_order":["heading_iFKjcT","text_WnifXa"],"name":"t:sections.image-with-text.presets.name","settings":{"image":"shopify://shop_images/seccion-1.jpg","height":"adapt","desktop_image_width":"medium","layout":"text_first","image_behavior":"none","content_layout":"no-overlap","desktop_content_position":"top","desktop_content_alignment":"center","mobile_content_alignment":"center","section_color_scheme":"scheme-3","color_scheme":"","padding_top":28,"padding_bottom":0}},"image_with_text_PjYfRW":{"type":"image-with-text","blocks":{"heading_kiYaPT":{"type":"heading","settings":{"heading":"Comodidad en Cada Gominola","heading_size":"h2"}},"text_jmhFck":{"type":"text","settings":{"text":"<p>Olvídate de bebidas complicadas o polvos que mezclar. Estas deliciosas gominolas hacen que tomar tu suplemento de algas marinas sea simple, agradable y práctico en cualquier momento.</p>","text_style":"body"}}},"block_order":["heading_kiYaPT","text_jmhFck"],"name":"t:sections.image-with-text.presets.name","settings":{"image":"shopify://shop_images/lifestyle-1.jpg","height":"adapt","desktop_image_width":"medium","layout":"image_first","image_behavior":"none","content_layout":"no-overlap","desktop_content_position":"top","desktop_content_alignment":"center","mobile_content_alignment":"center","section_color_scheme":"scheme-3","color_scheme":"","padding_top":0,"padding_bottom":0}},"image_with_text_g9mGRy":{"type":"image-with-text","blocks":{"heading_L3fgfx":{"type":"heading","settings":{"heading":"Salud Digestiva Optimizada","heading_size":"h2"}},"text_876jQq":{"type":"text","settings":{"text":"<p>Las algas marinas contienen ingredientes que apoyan naturalmente la salud digestiva, mejorando la absorción de nutrientes y promoviendo un bienestar intestinal óptimo. </p>","text_style":"body"}}},"block_order":["heading_L3fgfx","text_876jQq"],"name":"t:sections.image-with-text.presets.name","settings":{"image":"shopify://shop_images/seccion-2.jpg","height":"adapt","desktop_image_width":"medium","layout":"text_first","image_behavior":"none","content_layout":"no-overlap","desktop_content_position":"top","desktop_content_alignment":"center","mobile_content_alignment":"center","section_color_scheme":"scheme-3","color_scheme":"","padding_top":0,"padding_bottom":0}},"image_with_text_qbJMjd":{"type":"image-with-text","blocks":{"heading_i4UkkL":{"type":"heading","settings":{"heading":"Nutrientes de la Naturaleza","heading_size":"h2"}},"text_zkmeEK":{"type":"text","settings":{"text":"<p>Con 92 minerales y oligoelementos naturales, nuestras gominolas de algas marinas te proporcionan todo lo que tu cuerpo necesita para funcionar al máximo rendimiento. </p>","text_style":"body"}}},"block_order":["heading_i4UkkL","text_zkmeEK"],"name":"t:sections.image-with-text.presets.name","settings":{"image":"shopify://shop_images/lifestyle-3.jpg","height":"adapt","desktop_image_width":"medium","layout":"image_first","image_behavior":"none","content_layout":"no-overlap","desktop_content_position":"top","desktop_content_alignment":"center","mobile_content_alignment":"center","section_color_scheme":"scheme-3","color_scheme":"","padding_top":0,"padding_bottom":0}},"custom_liquid_JNXDPL":{"type":"custom-liquid","name":"Nos vs Ellos","settings":{"custom_liquid":"<section class=\"creamass-comparison\">\n  <div class=\"creamass-container\">\n\n    <h2>Gominolas de Algas Marinas Vs. Suplementos Tradicionales</h2>\n\n    <p class=\"creamass-subtitle\">\n      Así se comparan las gominolas de algas marinas Natural Rems frente a polvos y cápsulas:\n    </p>\n\n    <div class=\"creamass-scroll-indicator\">\n      ← Desliza para comparar →\n    </div>\n\n    <div class=\"creamass-table-wrapper\" id=\"creamassTableWrapper\">\n      <table class=\"creamass-table\">\n        <thead>\n          <tr>\n            <th></th>\n            <th class=\"highlight-col\">\n              <img\n                src=\"{{ 'custom-1.png' | file_url }}"\n                alt=\"Natural Rems\"\n                class=\"product-img\"\n              >\n              <span>Natural Rems</span>\n            </th>\n            <th>Cápsulas de Algas</th>\n            <th>Otras Gominolas</th>\n            <th>Polvo de Algas</th>\n          </tr>\n        </thead>\n\n        <tbody>\n          <tr>\n            <td>Fácil de tomar</td>\n            <td class=\"highlight-col\"><span class=\"creamass-icon\">✓</span></td>\n            <td>A veces</td>\n            <td><span class=\"check\">✓</span></td>\n            <td>—</td>\n          </tr>\n\n          <tr>\n            <td>Dosis precisa</td>\n            <td class=\"highlight-col\"><span class=\"creamass-icon\">✓</span></td>\n            <td><span class=\"check\">✓</span></td>\n            <td>—</td>\n            <td><span class=\"check\">✓</span></td>\n          </tr>\n\n          <tr>\n            <td>100% Natural</td>\n            <td class=\"highlight-col\"><span class=\"creamass-icon\">✓</span></td>\n            <td>—</td>\n            <td>—</td>\n            <td>—</td>\n          </tr>\n\n          <tr>\n            <td>Alta absorción</td>\n            <td class=\"highlight-col\"><span class=\"creamass-icon\">✓</span></td>\n            <td>—</td>\n            <td>—</td>\n            <td>—</td>\n          </tr>\n\n          <tr>\n            <td>Fácil de transportar</td>\n            <td class=\"highlight-col\"><span class=\"creamass-icon\">✓</span></td>\n            <td><span class=\"check\">✓</span></td>\n            <td><span class=\"check\">✓</span></td>\n            <td>—</td>\n          </tr>\n\n          <tr>\n            <td>Delicioso sabor</td>\n            <td class=\"highlight-col\"><span class=\"creamass-icon\">✓</span></td>\n            <td>—</td>\n            <td><span class=\"check\">✓</span></td>\n            <td>—</td>\n          </tr>\n        </tbody>\n      </table>\n    </div>\n\n    <div class=\"creamass-fake-scrollbar\" id=\"creamassFakeScrollbar\">\n      <div class=\"creamass-fake-scrollbar-thumb\" id=\"creamassScrollbarThumb\">\n        <div class=\"creamass-fake-scrollbar-handle\"></div>\n      </div>\n    </div>\n\n  </div>\n</section>\n\n<style>\n  .creamass-comparison {\n    padding: 60px 20px;\n    background: #ffffff;\n    font-family: inherit;\n  }\n\n  .creamass-container {\n    max-width: 1200px;\n    margin: 0 auto;\n  }\n\n  .creamass-comparison h2 {\n    text-align: center;\n    font-size: 42px;\n    line-height: 1.15;\n    color: #050b3f;\n    margin: 0 0 20px;\n    font-weight: 600;\n  }\n\n  .creamass-subtitle {\n    text-align: center;\n    font-size: 22px;\n    color: #444;\n    margin: 0 0 25px;\n  }\n\n  .creamass-scroll-indicator {\n    text-align: center;\n    color: #008cff;\n    font-size: 15px;\n    font-weight: 700;\n    margin-bottom: 14px;\n    animation: creamassPulse 1.8s infinite;\n  }\n\n  .creamass-table-wrapper {\n    width: 100%;\n    overflow-x: auto;\n    overflow-y: hidden;\n    -webkit-overflow-scrolling: touch;\n    scrollbar-width: none;\n  }\n\n  .creamass-table-wrapper::-webkit-scrollbar {\n    display: none;\n  }\n\n  .creamass-table {\n    width: 100%;\n    min-width: 900px;\n    border-collapse: collapse;\n  }\n\n  .creamass-table th,\n  .creamass-table td {\n    padding: 25px 20px;\n    text-align: center;\n    border-bottom: 1px solid #e6e6e6;\n    font-size: 17px;\n    color: #333333;\n    white-space: nowrap;\n  }\n\n  .creamass-table th:first-child,\n  .creamass-table td:first-child {\n    text-align: left;\n    color: #06123f;\n    font-weight: 600;\n    white-space: normal;\n    min-width: 190px;\n  }\n\n  .creamass-table th {\n    font-weight: 600;\n    vertical-align: bottom;\n  }\n\n  .highlight-col {\n    background: #f7f8fb;\n  }\n\n  .product-img {\n    width: 90px;\n    display: block;\n    margin: 0 auto 12px;\n  }\n\n  .creamass-icon,\n  .check {\n    color: #ffffff;\n    border-radius: 50%;\n    display: inline-flex;\n    justify-content: center;\n    align-items: center;\n    font-weight: 700;\n  }\n\n  .creamass-icon {\n    width: 34px;\n    height: 34px;\n    background: linear-gradient(135deg, #00d5ff, #008cff);\n    font-size: 20px;\n  }\n\n  .check {\n    width: 30px;\n    height: 30px;\n    background: #079ee8;\n    font-size: 18px;\n  }\n\n  .creamass-fake-scrollbar {\n    width: 100%;\n    height: 10px;\n    background: #e5e5e5;\n    border-radius: 30px;\n    margin-top: 18px;\n    position: relative;\n    overflow: visible;\n  }\n\n  .creamass-fake-scrollbar-thumb {\n    position: absolute;\n    left: 0;\n    top: 0;\n    height: 100%;\n    width: 35%;\n    background: linear-gradient(90deg, #00d5ff, #008cff);\n    border-radius: 30px;\n  }\n\n  .creamass-fake-scrollbar-handle {\n    position: absolute;\n    right: -12px;\n    top: 50%;\n    transform: translateY(-50%);\n    width: 28px;\n    height: 28px;\n    border-radius: 50%;\n    background: #ffffff;\n    border: 4px solid #008cff;\n    box-shadow: 0 4px 12px rgba(0,0,0,.20);\n  }\n\n  .creamass-fake-scrollbar-handle::before,\n  .creamass-fake-scrollbar-handle::after {\n    content: \"\";\n    position: absolute;\n    top: 50%;\n    width: 2px;\n    height: 10px;\n    background: #008cff;\n    transform: translateY(-50%);\n  }\n\n  .creamass-fake-scrollbar-handle::before {\n    left: 8px;\n  }\n\n  .creamass-fake-scrollbar-handle::after {\n    right: 8px;\n  }\n\n  @media screen and (max-width: 768px) {\n    .creamass-comparison {\n      padding: 20px 12px;\n    }\n\n    .creamass-comparison h2 {\n      font-size: 30px;\n    }\n\n    .creamass-subtitle {\n      font-size: 17px;\n      margin-bottom: 18px;\n    }\n\n    .creamass-scroll-indicator {\n      font-size: 14px;\n      margin-bottom: 12px;\n    }\n\n    .creamass-table {\n      min-width: 850px;\n    }\n\n    .creamass-table th,\n    .creamass-table td {\n      padding: 18px 14px;\n      font-size: 14px;\n    }\n\n    .creamass-table th:first-child,\n    .creamass-table td:first-child {\n      min-width: 165px;\n    }\n\n    .product-img {\n      width: 70px;\n    }\n\n    .creamass-fake-scrollbar {\n      height: 10px;\n      margin-top: 18px;\n    }\n\n    .creamass-fake-scrollbar-handle {\n      width: 26px;\n      height: 26px;\n      right: -11px;\n    }\n  }\n\n  @keyframes creamassPulse {\n    0% { opacity: .45; }\n    50% { opacity: 1; }\n    100% { opacity: .45; }\n  }\n</style>\n\n<script>\n  (function () {\n    function startCreamassScrollbar() {\n      var wrapper = document.getElementById('creamassTableWrapper');\n      var thumb = document.getElementById('creamassScrollbarThumb');\n      var bar = document.getElementById('creamassFakeScrollbar');\n\n      if (!wrapper || !thumb || !bar) return;\n\n      function updateScrollbar() {\n        var maxScroll = wrapper.scrollWidth - wrapper.clientWidth;\n        var barWidth = bar.clientWidth;\n\n        if (maxScroll <= 0) {\n          thumb.style.width = barWidth + 'px';\n          thumb.style.left = '0px';\n          return;\n        }\n\n        var thumbWidth = (wrapper.clientWidth / wrapper.scrollWidth) * barWidth;\n        var maxThumbMove = barWidth - thumbWidth;\n        var thumbLeft = (wrapper.scrollLeft / maxScroll) * maxThumbMove;\n\n        thumb.style.width = thumbWidth + 'px';\n        thumb.style.left = thumbLeft + 'px';\n      }\n\n      wrapper.addEventListener('scroll', updateScrollbar);\n      window.addEventListener('resize', updateScrollbar);\n\n      setTimeout(updateScrollbar, 100);\n      setTimeout(updateScrollbar, 500);\n      updateScrollbar();\n    }\n\n    if (document.readyState === 'loading') {\n      document.addEventListener('DOMContentLoaded', startCreamassScrollbar);\n    } else {\n      startCreamassScrollbar();\n    }\n\n    document.addEventListener('shopify:section:load', startCreamassScrollbar);\n  })();\n</script>","color_scheme":"","padding_top":40,"padding_bottom":52}},"custom_liquid_GFrzia":{"type":"custom-liquid","name":"Informe Liq","settings":{"custom_liquid":"<section class=\"creamass-purity-custom\">\n  <div class=\"creamass-purity-custom__inner\">\n\n    <div class=\"creamass-purity-custom__content\">\n      <h2>Pureza y Calidad Garantizada</h2>\n\n      <p class=\"creamass-purity-custom__highlight\">\n        Utilizamos algas marinas de la más alta pureza, cultivadas en aguas limpias y procesadas bajo estrictos estándares de calidad.\n      </p>\n\n      <p>\n        Cada gominola de Natural Rems está pensada para ofrecer una forma práctica, cómoda y confiable de complementar tu rutina diaria con nutrientes marinos auténticos.\n      </p>\n\n      <p>\n        Nuestra fórmula busca simplificar tu bienestar: sin ingredientes artificiales, sin aftertaste marino y sin complicaciones. Solo nutrientes puros y naturales.\n      </p>\n\n      <p>\n        Una forma más simple, moderna y deliciosa de obtener los beneficios del mar cada día.\n      </p>\n\n      <div class=\"creamass-purity-custom__quote\">\n        <p>\n          \"Natural Rems es la solución perfecta para obtener los nutrientes del mar de manera práctica, deliciosa y accesible para toda la familia.\"\n        </p>\n\n        <div class=\"creamass-purity-custom__author\">\n          <div class=\"creamass-purity-custom__author-info\">\n            <strong>Natural Rems</strong>\n            <span>Gominolas de Algas Marinas</span>\n          </div>\n\n          <img\n            src=\"{{ 'emoji.png' | file_url }}"\n            alt=\"Gominola Natural Rems\"\n          >\n        </div>\n      </div>\n    </div>\n\n    <div class=\"creamass-purity-custom__image-box\">\n      <img\n        src=\"{{ 'producto-destacado.jpg' | file_url }}"\n        alt=\"Reporte de calidad Natural Rems\"\n      >\n\n      <button type=\"button\" class=\"creamass-purity-custom__link\" onclick=\"document.querySelector('.creamass-report-popup').classList.add('active')\">\n        <span>→</span>\n        Ver informe completo\n      </button>\n    </div>\n\n  </div>\n</section>\n\n<div class=\"creamass-report-popup\" onclick=\"this.classList.remove('active')\">\n  <div class=\"creamass-report-popup__content\" onclick=\"event.stopPropagation()\">\n    <button type=\"button\" class=\"creamass-report-popup__close\" onclick=\"document.querySelector('.creamass-report-popup').classList.remove('active')\">\n      ×\n    </button>\n\n    <img\n      src=\"{{ 'producto-destacado.jpg' | file_url }}"\n      alt=\"Informe completo Natural Rems\"\n    >\n  </div>\n</div>\n\n<style>\n  .creamass-purity-custom {\n    background: #050b2f;\n    color: #ffffff;\n    padding: 70px 16px;\n  }\n\n  .creamass-purity-custom__inner {\n    max-width: 1200px;\n    margin: 0 auto;\n    display: grid;\n    grid-template-columns: 1fr 0.95fr;\n    gap: 50px;\n    align-items: center;\n  }\n\n  .creamass-purity-custom h2 {\n    font-size: 50px;\n    line-height: 1.05;\n    margin: 0 0 30px;\n    color: #ffffff;\n    font-weight: 500;\n  }\n\n  .creamass-purity-custom p {\n    font-size: 22px;\n    line-height: 1.45;\n    margin: 0 0 26px;\n    color: #ffffff;\n  }\n\n  .creamass-purity-custom__highlight {\n    color: #73d7ff !important;\n    font-weight: 700;\n  }\n\n  .creamass-purity-custom__quote {\n    margin-top: 35px;\n    background: #18284d;\n    border: 1px solid rgba(255,255,255,0.15);\n    padding: 30px;\n  }\n\n  .creamass-purity-custom__quote p {\n    font-size: 22px;\n    margin-bottom: 28px;\n  }\n\n  .creamass-purity-custom__author {\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    gap: 20px;\n  }\n\n  .creamass-purity-custom__author-info strong {\n    display: block;\n    font-size: 18px;\n    color: #ffffff;\n  }\n\n  .creamass-purity-custom__author-info span {\n    display: block;\n    font-size: 16px;\n    color: #ffffff;\n    opacity: 0.9;\n  }\n\n  .creamass-purity-custom__author img {\n    max-width: 80px;\n    height: auto;\n    display: block;\n  }\n\n  .creamass-purity-custom__image-box {\n    background: #ffffff;\n    border-radius: 4px;\n    overflow: hidden;\n    box-shadow: 0 20px 50px rgba(0,0,0,0.25);\n  }\n\n  .creamass-purity-custom__image-box img {\n    display: block;\n    width: 100%;\n    height: auto;\n  }\n\n  .creamass-purity-custom__link {\n    width: 100%;\n    border: none;\n    cursor: pointer;\n    display: flex;\n    align-items: center;\n    gap: 18px;\n    padding: 24px 32px;\n    color: #050b2f;\n    text-decoration: none;\n    font-size: 20px;\n    font-weight: 500;\n    background: #ffffff;\n    text-align: left;\n  }\n\n  .creamass-purity-custom__link span {\n    width: 34px;\n    height: 34px;\n    border: 1px solid #050b2f;\n    border-radius: 50%;\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n  }\n\n  .creamass-report-popup {\n    display: none;\n    position: fixed;\n    z-index: 999999;\n    inset: 0;\n    background: rgba(0,0,0,0.82);\n    padding: 30px 16px;\n    overflow-y: auto;\n  }\n\n  .creamass-report-popup.active {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n  }\n\n  .creamass-report-popup__content {\n    position: relative;\n    max-width: 900px;\n    width: 100%;\n  }\n\n  .creamass-report-popup__content img {\n    width: 100%;\n    height: auto;\n    display: block;\n    background: #ffffff;\n    border-radius: 6px;\n  }\n\n  .creamass-report-popup__close {\n    position: absolute;\n    top: -18px;\n    right: -12px;\n    width: 38px;\n    height: 38px;\n    border-radius: 50%;\n    border: none;\n    background: #ffffff;\n    color: #050b2f;\n    font-size: 28px;\n    line-height: 1;\n    cursor: pointer;\n  }\n\n  @media screen and (max-width: 768px) {\n    .creamass-purity-custom {\n      padding: 45px 16px;\n    }\n\n    .creamass-purity-custom__inner {\n      grid-template-columns: 1fr;\n      gap: 35px;\n    }\n\n    .creamass-purity-custom h2 {\n      font-size: 36px;\n    }\n\n    .creamass-purity-custom p,\n    .creamass-purity-custom__quote p {\n      font-size: 18px;\n    }\n\n    .creamass-purity-custom__quote {\n      padding: 24px;\n    }\n\n    .creamass-purity-custom__link {\n      font-size: 17px;\n      padding: 20px;\n    }\n\n    .creamass-report-popup {\n      padding: 20px 10px;\n      align-items: flex-start;\n    }\n\n    .creamass-report-popup.active {\n      align-items: flex-start;\n    }\n\n    .creamass-report-popup__close {\n      top: 8px;\n      right: 8px;\n    }\n  }\n</style>","color_scheme":"","padding_top":40,"padding_bottom":52}},"collapsible_content_L7qLyC":{"type":"collapsible-content","blocks":{"collapsible_row_kbNjAh":{"type":"collapsible_row","settings":{"heading":"¿Cuántas gominolas debo tomar diariamente?","icon":"question_mark","row_content":"<p>Toma 3 gomitas al día para disfrutar de todos los beneficios en el rendimiento físico. Esto se aplica a cualquier persona de menos de 100 kg, y se puede precisar aún más con esta fórmula avalada por estudios: 0,03 g/kg de peso corporal al día cubre las necesidades musculoesqueléticas.</p>","page":""}},"collapsible_row_XVtpKn":{"type":"collapsible_row","settings":{"heading":"¿Son seguros los suplementos de algas marinas?","icon":"question_mark","row_content":"<p>Respuesta corta: SÍ, la creatina es para todo el mundo. El cuerpo humano produce creatina de forma natural cada día, eso no es ningún secreto. Las nuevas investigaciones están impulsando a más mujeres deportistas y a más personas con un estilo de vida activo que nunca a tomar creatina como complemento, sobre todo a quienes no obtienen suficiente creatina de la carne en su dieta.</p>","page":""}},"collapsible_row_DN7K9X":{"type":"collapsible_row","settings":{"heading":"¿Tiene algún efecto secundario?","icon":"question_mark","row_content":"<p>Sí. La FDA reconoció recientemente la creatina como GRAS (generalmente reconocida como segura) en 2020.<br/>               </p>","page":""}},"collapsible_row_W9h9dp":{"type":"collapsible_row","settings":{"heading":"¿Cuál es vuestra política de devoluciones?","icon":"question_mark","row_content":"<p>Cramass+ ofrece una garantía de devolución de 60 días sin complicaciones.<br/>               </p>","page":""}}},"block_order":["collapsible_row_kbNjAh","collapsible_row_XVtpKn","collapsible_row_DN7K9X","collapsible_row_W9h9dp"],"name":"Preguntas frecuentes","settings":{"caption":"","heading":"Preguntas frecuentes","heading_size":"h1","heading_alignment":"center","layout":"none","container_color_scheme":"scheme-3","color_scheme":"scheme-3","open_first_collapsible_row":false,"image_ratio":"adapt","desktop_layout":"image_second","padding_top":12,"padding_bottom":16}},"17818071906b2f9961":{"type":"apps","blocks":{"judge_me_reviews_review_widget_NA9FCM":{"type":"shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8","settings":{"review_data":"sample_data","max_width":1200,"show_shop_reviews":false,"empty_state":"empty_widget"}}},"block_order":["judge_me_reviews_review_widget_NA9FCM"],"settings":{"include_margins":true}}},"order":["main","disclosures","related-products","image_with_text_CAmh7m","image_with_text_TcAYrQ","image_with_text_PjYfRW","image_with_text_g9mGRy","image_with_text_qbJMjd","custom_liquid_JNXDPL","custom_liquid_GFrzia","collapsible_content_L7qLyC","17818071906b2f9961"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "judge_me_reviews_preview_badge_hiUQPq": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {}
+        },
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "body"
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {}
+        },
+        "rating": {
+          "type": "rating",
+          "disabled": true,
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "custom_liquid_YX494w": {
+          "type": "custom_liquid",
+          "name": "Título",
+          "settings": {
+            "custom_liquid": "<div class=\"product-section-title\">\n  <h2>Gominolas de Algas Marinas</h2>\n  <p>100% Natural | Vegano | Sin gluten | Sin-OGM\n</div>\n\n<style>\n.product-section-title {\n  font-family: Questrial, sans-serif;\n  text-align: left; /* Ajusta según necesites */\n  margin-bottom: 1.2px; /* Espacio debajo de la sección */\n}\n\n.product-section-title h2 {\n  font-weight: bold;\n  font-size: 29px; /* Tamaño del título, ajustable */\n  margin: 0;\n  line-height: 1.2;\n}\n\n.product-section-title p {\n  font-weight: normal;\n  font-size: 14px; /* Tamaño del subtítulo */\n  color: #000000; /* Color negro */\n  margin: 4px 0 0 0;\n}\n</style>"
+          }
+        },
+        "custom_liquid_aUVmiH": {
+          "type": "custom_liquid",
+          "name": "Reseñas estrella",
+          "settings": {
+            "custom_liquid": "<div class=\"sm-rating-inline\">\n  <span class=\"stars\">★★★★★</span>\n  <span class=\"text\"> 4.8/5 (4,683 Reseñas)\n</span>\n</div>\n\n<style>\n.sm-rating-inline {\n font-family: Questrial, sans-serif;\n  display: flex;\n  align-items: center;\n  gap: 3.5px;\n  font-family: Arial, sans-serif;\n  margin: 5px 0 !important;\n}\n\n.sm-rating-inline .stars {\n font-family: Questrial, sans-serif;\n  color: #1080f0 !important; /* celeste azulado */\n  font-size: 21px; /* TRIPLE tamaño aprox */\n  line-height: 1;\n\n}\n\n.sm-rating-inline .rating-text {\n  font-size: 16px;\n  line-height: 1.2;\n  color: #000000 !important; /* negro puro */\n  font-weight: 600;\n}\n</style>"
+          }
+        },
+        "custom_liquid_AxMkb4": {
+          "type": "custom_liquid",
+          "name": "Beneficios",
+          "settings": {
+            "custom_liquid": "<style>\n  .benefits-list {\n    font-family: Questrial, Helvetica, sans-serif;\n    list-style: none;\n    padding: 0;\n    margin: 0.3;\n  }\n\n  .benefits-list li {\n    display: flex;\n    align-items: center;\n    gap: 10px;\n    margin-bottom: 1px;\n    font-size: 16px;\n    color: #000;\n  }\n\n  .benefits-list .check {\n    width: 18px;\n    height: 18px;\n    min-width: 18px;\n    border-radius: 50%;\n    background-color: #1080f0; /* celeste azulado */\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    color: #fff;\n    font-size: 12px;\n    font-weight: bold;\n  }\n</style>\n\n<ul class=\"benefits-list\">\n  <li>\n    <span class=\"check\">✓</span>\n    <span>Refuerza tu sistema inmunológico</span>\n  </li>\n  <li>\n    <span class=\"check\">✓</span>\n    <span>Mejora la salud digestiva</span>\n  </li>\n  <li>\n    <span class=\"check\">✓</span>\n    <span>Impulsa el metabolismo y energía</span>\n  </li>\n  <li>\n    <span class=\"check\">✓</span>\n    <span>Promueve salud cardiovascular</span>\n  </li>\n  <li>\n    <span class=\"check\">✓</span>\n    <span>Deliciosas y fáciles de consumir</span>\n  </li>\n</ul>"
+          }
+        },
+        "custom_liquid_aMBdYf": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"sm-featuredReview-section\">\n\n  <div class=\"sm-featuredReview-wrapper\" id=\"reviewSlider\">\n\n    <!-- Review 1 -->\n    <div class=\"sm-featuredReview\">\n      <img class=\"reviewImg\" src=\"{{ 'resena-1.png' | file_url }}\" alt=\"Review\">\n      <div class=\"content\">\n        <div class=\"review\">\n          \"Estas son <strong>las mejores gominolas de algas marinas que he probado</strong>. Me ayudaron a sentirme con más energía y mi digestión mejoró notablemente en pocas semanas.\"\n        </div>\n        <div class=\"author\">\n          <span class=\"verified\"></span>\n          Nut. Carlos Méndez\n        </div>\n      </div>\n    </div>\n\n    <!-- Review 2 -->\n    <div class=\"sm-featuredReview\">\n      <img class=\"reviewImg\" src=\"{{ 'resena-3.png' | file_url }}\" alt=\"Review\">\n      <div class=\"content\">\n        <div class=\"review\">\n          \"Después de tomar estas gominolas durante tres meses, <strong>tengo más energía y me siento revitalizado</strong>. Increíble cómo un suplemento natural puede hacer una diferencia tan grande.\"\n        </div>\n        <div class=\"author\">\n          <span class=\"verified\"></span>\n          Fátima M., 32\n        </div>\n      </div>\n    </div>\n\n    <!-- Review 3 -->\n    <div class=\"sm-featuredReview\">\n      <img class=\"reviewImg\" src=\"{{ 'resena-2.png' | file_url }}\" alt=\"Review\">\n      <div class=\"content\">\n        <div class=\"review\">\n          \"Las gominolas de algas marinas me han transformado la rutina diaria. <strong>Mi piel brilla, tengo más vitalidad y mi digestión es perfecta</strong> ahora.\"\n        </div>\n        <div class=\"author\">\n          <span class=\"verified\"></span>\n          Jorge F., 29\n        </div>\n      </div>\n    </div>\n\n  </div>\n\n  <!-- Indicadores -->\n  <div class=\"sm-dots\" id=\"reviewDots\">\n    <span class=\"active\"></span>\n    <span></span>\n    <span></span>\n  </div>\n\n</div>\n\n\n\n<style>\n.sm-featuredReview-section {\n  overflow: hidden;\n  font-family: Arial, sans-serif;\n}\n\n.sm-featuredReview-wrapper {\n  display: flex;\n  gap: 14px; /* separación entre sliders */\n  overflow-x: auto;\n  scroll-snap-type: x mandatory;\n  scrollbar-width: none;\n  -webkit-overflow-scrolling: touch;\n  padding: 0 7px; /* evita que se asome el siguiente */\n}\n\n.sm-featuredReview-wrapper::-webkit-scrollbar {\n  display: none;\n}\n\n.sm-featuredReview {\n  flex: 0 0 calc(100% - 14px);\n  box-sizing: border-box;\n  display: flex;\n  gap: 16px;\n  padding: 18px;\n  background: #eaf6ff;\n  border-radius: 14px;\n  scroll-snap-align: center;\n}\n\n.reviewImg {\n  width: 58px;\n  height: 58px;\n  border-radius: 50%;\n  flex-shrink: 0;\n}\n\n.content {\n  display: flex;\n  flex-direction: column;\n  gap: 8px;\n}\n\n.review {\n  font-size: 13px;\n  line-height: 18px;\n}\n\n.author {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n  font-size: 14px;\n  font-weight: 600;\n  font-style: italic;\n}\n\n/* Check verificado */\n.verified {\n  width: 16px;\n  height: 16px;\n  background-image: url(\"data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%232C95E9' d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14.2l-3.5-3.5 1.4-1.4L11 13.4l4.6-4.6 1.4 1.4L11 16.2z'/%3E%3C/svg%3E\");\n  background-size: contain;\n  background-repeat: no-repeat;\n}\n\n/* Puntitos */\n.sm-dots {\n  display: flex;\n  justify-content: center;\n  gap: 6px;\n  margin-top: 8px;\n}\n\n.sm-dots span {\n  width: 6px;\n  height: 6px;\n  border-radius: 50%;\n  background: #b6def6;\n}\n\n.sm-dots span.active {\n  background: #2c95e9;\n}\n</style>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n  const slider = document.getElementById(\"reviewSlider\");\n  const dots = document.getElementById(\"reviewDots\").children;\n\n  slider.addEventListener(\"scroll\", () => {\n    const index = Math.round(slider.scrollLeft / slider.offsetWidth);\n    Array.from(dots).forEach(dot => dot.classList.remove(\"active\"));\n    if (dots[index]) dots[index].classList.add(\"active\");\n  });\n});\n</script>"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "custom_liquid_XhMbrw": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"sm-alert\">\n  <div class=\"sm-dot\" style=\"display:block!important\"></div>\n  <span class=\"sm-message\">Solo quedan 12 unidades en stock</span>\n</div>\n\n<style>\n  :root {\n    --sm-alert-margin-top: -15px;    /* 👈 margen superior */\n    --sm-alert-margin-bottom: 20px; /* 👈 margen inferior */\n  }\n\n  .sm-alert {\n    display: flex !important;\n    align-items: center;\n    gap: 8px;\n    margin-top: var(--sm-alert-margin-top) !important;\n    margin-bottom: var(--sm-alert-margin-bottom) !important;\n  }\n  \n  .sm-dot {\n    width: 8px !important;\n    height: 8px !important;\n    min-width: 5px !important;\n    min-height: 5px !important;\n    background: #ff0000 !important;\n    border-radius: 50% !important;\n    animation: sm-pulse 2s infinite !important;\n    flex-shrink: 0 !important;\n  }\n  \n  .sm-message {\n    color: #ff0000 !important;\n    font-weight: 500;\n    font-size: 12px;\n    animation: sm-blink 2s infinite;\n  }\n  \n  @keyframes sm-pulse {\n    0% {\n      box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.7);\n      transform: scale(1);\n    }\n    70% {\n      box-shadow: 0 0 0 10px rgba(255, 0, 0, 0);\n      transform: scale(1.1);\n    }\n    100% {\n      box-shadow: 0 0 0 0 rgba(255, 0, 0, 0);\n      transform: scale(1);\n    }\n  }\n  \n  @keyframes sm-blink {\n    0%, 100% { opacity: 1; }\n    50% { opacity: 0.6; }\n  }\n</style>"
+          }
+        },
+        "custom_liquid_n4eUyw": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<!-- Inicio Código Imagen Shopify -->\n<style>\n  .product-custom-img-wrapper {\n    width: 100%;\n    margin: -20px 0; /* Espacio arriba y abajo */\n    text-align: center; /* Centrar imagen */\n    display: flex;\n    justify-content: center;\n  }\n  .product-custom-img-wrapper img {\n    max-width: 100%; /* No exceder el ancho del contenedor */\n    height: auto; /* Mantener proporción */\n    display: block;\n    border-radius: 8px; /* Bordes redondeados opcional */\n  }\n</style>\n\n<div class=\"product-custom-img-wrapper\">\n  <!-- REEMPLAZA LA URL DE ABAJO -->\n  <img \n    src=\"{{ 'logo-sticker.svg' | file_url }}\" \n    alt=\"Descripción de la imagen para SEO\" \n    loading=\"lazy\"\n  >\n</div>\n<!-- Fin Código Imagen Shopify -->"
+          }
+        },
+        "icon_with_text_bnYFDt": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "heart",
+            "image_1": "shopify://shop_images/icono-envio.png",
+            "heading_1": "Envio GRATIS",
+            "icon_2": "lightning_bolt",
+            "image_2": "shopify://shop_images/icono-pago.png",
+            "heading_2": "Garantia +60 dias",
+            "icon_3": "truck",
+            "image_3": "shopify://shop_images/icono-contraentrega.png",
+            "heading_3": "Paga en casa"
+          }
+        },
+        "collapsible_tab_V6QpXN": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Cómo tomar",
+            "icon": "question_mark",
+            "content": "<p><br/>Tome <strong>2 gominolas diarias con un vaso de agua</strong>, preferiblemente con las comidas. <strong>Puede tomarlas en cualquier momento del día</strong> que le convenga.<br/><br/>Para mejores resultados, mantenga una ingesta consistente todos los días.<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_iK9NTm": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Oferta Especial",
+            "icon": "price_tag",
+            "content": "<p>Una vez finalice la oferta activa, el precio del producto volverá a su valor original.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_yt8kYN": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Envío Gratis y Asegurado",
+            "icon": "truck",
+            "content": "<p>El <strong>envío</strong> es totalmente <strong>gratis a toda España</strong>. El tiempo de procesamiento de envío es de <strong>24 a 48 horas</strong> hábiles.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_AbphLe": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Garantía de Reembolso de 90 días",
+            "icon": "check_mark",
+            "content": "<p>Tu pedido está <strong>100 % cubierto por nuestra garantía de devolución</strong> de 90 días.<br/>Si no estás satisfecho, solo tienes que avisarnos. <strong>Te reembolsaremos</strong> el importe total de tu pedido <strong>sin hacerte preguntas.</strong></p>",
+            "page": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_preview_badge_hiUQPq",
+        "vendor",
+        "title",
+        "rating",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "custom_liquid_YX494w",
+        "custom_liquid_aUVmiH",
+        "custom_liquid_AxMkb4",
+        "custom_liquid_aMBdYf",
+        "buy_buttons",
+        "custom_liquid_XhMbrw",
+        "custom_liquid_n4eUyw",
+        "icon_with_text_bnYFDt",
+        "collapsible_tab_V6QpXN",
+        "collapsible_tab_iK9NTm",
+        "collapsible_tab_yt8kYN",
+        "collapsible_tab_AbphLe",
+        "description",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-3",
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "mobile_thumbnails": "show",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "disclosures": {
+      "type": "disclosures",
+      "settings": {
+        "heading": "Información Legal",
+        "heading_size": "h2",
+        "open_by_default": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "También te puede interesar",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    },
+    "image_with_text_CAmh7m": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_e8H76f": {
+          "type": "heading",
+          "settings": {
+            "heading": "Refuerza tu Inmunidad Natural",
+            "heading_size": "h2"
+          }
+        },
+        "text_iadja4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Las algas marinas contienen minerales y nutrientes esenciales que potencian naturalmente tu sistema inmunológico, ayudándote a mantener tu cuerpo fuerte y resistente. <br/></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_e8H76f",
+        "text_iadja4"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/lifestyle-2.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "center",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "",
+        "padding_top": 28,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_TcAYrQ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_iFKjcT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Energía y Vitalidad Diaria",
+            "heading_size": "h2"
+          }
+        },
+        "text_WnifXa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nuestras gominolas de algas marinas están enriquecidas con nutrientes que te proporcionan energía sostenida durante todo el día, sin los picos y caídas típicos de otros suplementos. </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iFKjcT",
+        "text_WnifXa"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/seccion-1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "center",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "",
+        "padding_top": 28,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_PjYfRW": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_kiYaPT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Comodidad en Cada Gominola",
+            "heading_size": "h2"
+          }
+        },
+        "text_jmhFck": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Olvídate de bebidas complicadas o polvos que mezclar. Estas deliciosas gominolas hacen que tomar tu suplemento de algas marinas sea simple, agradable y práctico en cualquier momento.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kiYaPT",
+        "text_jmhFck"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/lifestyle-1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "center",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_g9mGRy": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_L3fgfx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Salud Digestiva Optimizada",
+            "heading_size": "h2"
+          }
+        },
+        "text_876jQq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Las algas marinas contienen ingredientes que apoyan naturalmente la salud digestiva, mejorando la absorción de nutrientes y promoviendo un bienestar intestinal óptimo. </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_L3fgfx",
+        "text_876jQq"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/seccion-2.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "center",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_qbJMjd": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_i4UkkL": {
+          "type": "heading",
+          "settings": {
+            "heading": "Nutrientes de la Naturaleza",
+            "heading_size": "h2"
+          }
+        },
+        "text_zkmeEK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Con 92 minerales y oligoelementos naturales, nuestras gominolas de algas marinas te proporcionan todo lo que tu cuerpo necesita para funcionar al máximo rendimiento. </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_i4UkkL",
+        "text_zkmeEK"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/lifestyle-3.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "center",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_liquid_JNXDPL": {
+      "type": "custom-liquid",
+      "name": "Nos vs Ellos",
+      "settings": {
+        "custom_liquid": "<section class=\"seamoss-comparison\">\n  <div class=\"seamoss-container\">\n\n    <h2>Gominolas de Algas Marinas Vs. Suplementos Tradicionales</h2>\n\n    <p class=\"seamoss-subtitle\">\n      Así se comparan las gominolas de algas marinas Natural Rems frente a polvos y cápsulas:\n    </p>\n\n    <div class=\"seamoss-scroll-indicator\">\n      ← Desliza para comparar →\n    </div>\n\n    <div class=\"seamoss-table-wrapper\" id=\"seamossTableWrapper\">\n      <table class=\"seamoss-table\">\n        <thead>\n          <tr>\n            <th></th>\n            <th class=\"highlight-col\">\n              <img\n                src=\"{{ 'custom-1.png' | file_url }}\"\n                alt=\"Natural Rems\"\n                class=\"product-img\"\n              >\n              <span>Natural Rems</span>\n            </th>\n            <th>Cápsulas de Algas</th>\n            <th>Otras Gominolas</th>\n            <th>Polvo de Algas</th>\n          </tr>\n        </thead>\n\n        <tbody>\n          <tr>\n            <td>Fácil de tomar</td>\n            <td class=\"highlight-col\"><span class=\"seamoss-icon\">✓</span></td>\n            <td>A veces</td>\n            <td><span class=\"check\">✓</span></td>\n            <td>—</td>\n          </tr>\n\n          <tr>\n            <td>Dosis precisa</td>\n            <td class=\"highlight-col\"><span class=\"seamoss-icon\">✓</span></td>\n            <td><span class=\"check\">✓</span></td>\n            <td>—</td>\n            <td><span class=\"check\">✓</span></td>\n          </tr>\n\n          <tr>\n            <td>100% Natural</td>\n            <td class=\"highlight-col\"><span class=\"seamoss-icon\">✓</span></td>\n            <td>—</td>\n            <td>—</td>\n            <td>—</td>\n          </tr>\n\n          <tr>\n            <td>Alta absorción</td>\n            <td class=\"highlight-col\"><span class=\"seamoss-icon\">✓</span></td>\n            <td>—</td>\n            <td>—</td>\n            <td>—</td>\n          </tr>\n\n          <tr>\n            <td>Fácil de transportar</td>\n            <td class=\"highlight-col\"><span class=\"seamoss-icon\">✓</span></td>\n            <td><span class=\"check\">✓</span></td>\n            <td><span class=\"check\">✓</span></td>\n            <td>—</td>\n          </tr>\n\n          <tr>\n            <td>Delicioso sabor</td>\n            <td class=\"highlight-col\"><span class=\"seamoss-icon\">✓</span></td>\n            <td>—</td>\n            <td><span class=\"check\">✓</span></td>\n            <td>—</td>\n          </tr>\n        </tbody>\n      </table>\n    </div>\n\n    <div class=\"seamoss-fake-scrollbar\" id=\"seamossFakeScrollbar\">\n      <div class=\"seamoss-fake-scrollbar-thumb\" id=\"seamossScrollbarThumb\">\n        <div class=\"seamoss-fake-scrollbar-handle\"></div>\n      </div>\n    </div>\n\n  </div>\n</section>\n\n<style>\n  .seamoss-comparison {\n    padding: 60px 20px;\n    background: #ffffff;\n    font-family: inherit;\n  }\n\n  .seamoss-container {\n    max-width: 1200px;\n    margin: 0 auto;\n  }\n\n  .seamoss-comparison h2 {\n    text-align: center;\n    font-size: 42px;\n    line-height: 1.15;\n    color: #050b3f;\n    margin: 0 0 20px;\n    font-weight: 600;\n  }\n\n  .seamoss-subtitle {\n    text-align: center;\n    font-size: 22px;\n    color: #444;\n    margin: 0 0 25px;\n  }\n\n  .seamoss-scroll-indicator {\n    text-align: center;\n    color: #008cff;\n    font-size: 15px;\n    font-weight: 700;\n    margin-bottom: 14px;\n    animation: seamossPulse 1.8s infinite;\n  }\n\n  .seamoss-table-wrapper {\n    width: 100%;\n    overflow-x: auto;\n    overflow-y: hidden;\n    -webkit-overflow-scrolling: touch;\n    scrollbar-width: none;\n  }\n\n  .seamoss-table-wrapper::-webkit-scrollbar {\n    display: none;\n  }\n\n  .seamoss-table {\n    width: 100%;\n    min-width: 900px;\n    border-collapse: collapse;\n  }\n\n  .seamoss-table th,\n  .seamoss-table td {\n    padding: 25px 20px;\n    text-align: center;\n    border-bottom: 1px solid #e6e6e6;\n    font-size: 17px;\n    color: #333333;\n    white-space: nowrap;\n  }\n\n  .seamoss-table th:first-child,\n  .seamoss-table td:first-child {\n    text-align: left;\n    color: #06123f;\n    font-weight: 600;\n    white-space: normal;\n    min-width: 190px;\n  }\n\n  .seamoss-table th {\n    font-weight: 600;\n    vertical-align: bottom;\n  }\n\n  .highlight-col {\n    background: #f7f8fb;\n  }\n\n  .product-img {\n    width: 90px;\n    display: block;\n    margin: 0 auto 12px;\n  }\n\n  .seamoss-icon,\n  .check {\n    color: #ffffff;\n    border-radius: 50%;\n    display: inline-flex;\n    justify-content: center;\n    align-items: center;\n    font-weight: 700;\n  }\n\n  .seamoss-icon {\n    width: 34px;\n    height: 34px;\n    background: linear-gradient(135deg, #00d5ff, #008cff);\n    font-size: 20px;\n  }\n\n  .check {\n    width: 30px;\n    height: 30px;\n    background: #079ee8;\n    font-size: 18px;\n  }\n\n  .seamoss-fake-scrollbar {\n    width: 100%;\n    height: 10px;\n    background: #e5e5e5;\n    border-radius: 30px;\n    margin-top: 18px;\n    position: relative;\n    overflow: visible;\n  }\n\n  .seamoss-fake-scrollbar-thumb {\n    position: absolute;\n    left: 0;\n    top: 0;\n    height: 100%;\n    width: 35%;\n    background: linear-gradient(90deg, #00d5ff, #008cff);\n    border-radius: 30px;\n  }\n\n  .seamoss-fake-scrollbar-handle {\n    position: absolute;\n    right: -12px;\n    top: 50%;\n    transform: translateY(-50%);\n    width: 28px;\n    height: 28px;\n    border-radius: 50%;\n    background: #ffffff;\n    border: 4px solid #008cff;\n    box-shadow: 0 4px 12px rgba(0,0,0,.20);\n  }\n\n  .seamoss-fake-scrollbar-handle::before,\n  .seamoss-fake-scrollbar-handle::after {\n    content: \"\";\n    position: absolute;\n    top: 50%;\n    width: 2px;\n    height: 10px;\n    background: #008cff;\n    transform: translateY(-50%);\n  }\n\n  .seamoss-fake-scrollbar-handle::before {\n    left: 8px;\n  }\n\n  .seamoss-fake-scrollbar-handle::after {\n    right: 8px;\n  }\n\n  @media screen and (max-width: 768px) {\n    .seamoss-comparison {\n      padding: 20px 12px;\n    }\n\n    .seamoss-comparison h2 {\n      font-size: 30px;\n    }\n\n    .seamoss-subtitle {\n      font-size: 17px;\n      margin-bottom: 18px;\n    }\n\n    .seamoss-scroll-indicator {\n      font-size: 14px;\n      margin-bottom: 12px;\n    }\n\n    .seamoss-table {\n      min-width: 850px;\n    }\n\n    .seamoss-table th,\n    .seamoss-table td {\n      padding: 18px 14px;\n      font-size: 14px;\n    }\n\n    .seamoss-table th:first-child,\n    .seamoss-table td:first-child {\n      min-width: 165px;\n    }\n\n    .product-img {\n      width: 70px;\n    }\n\n    .seamoss-fake-scrollbar {\n      height: 10px;\n      margin-top: 18px;\n    }\n\n    .seamoss-fake-scrollbar-handle {\n      width: 26px;\n      height: 26px;\n      right: -11px;\n    }\n  }\n\n  @keyframes seamossPulse {\n    0% { opacity: .45; }\n    50% { opacity: 1; }\n    100% { opacity: .45; }\n  }\n</style>\n\n<script>\n  (function () {\n    function startSeamossScrollbar() {\n      var wrapper = document.getElementById('seamossTableWrapper');\n      var thumb = document.getElementById('seamossScrollbarThumb');\n      var bar = document.getElementById('seamossFakeScrollbar');\n\n      if (!wrapper || !thumb || !bar) return;\n\n      function updateScrollbar() {\n        var maxScroll = wrapper.scrollWidth - wrapper.clientWidth;\n        var barWidth = bar.clientWidth;\n\n        if (maxScroll <= 0) {\n          thumb.style.width = barWidth + 'px';\n          thumb.style.left = '0px';\n          return;\n        }\n\n        var thumbWidth = (wrapper.clientWidth / wrapper.scrollWidth) * barWidth;\n        var maxThumbMove = barWidth - thumbWidth;\n        var thumbLeft = (wrapper.scrollLeft / maxScroll) * maxThumbMove;\n\n        thumb.style.width = thumbWidth + 'px';\n        thumb.style.left = thumbLeft + 'px';\n      }\n\n      wrapper.addEventListener('scroll', updateScrollbar);\n      window.addEventListener('resize', updateScrollbar);\n\n      setTimeout(updateScrollbar, 100);\n      setTimeout(updateScrollbar, 500);\n      updateScrollbar();\n    }\n\n    if (document.readyState === 'loading') {\n      document.addEventListener('DOMContentLoaded', startSeamossScrollbar);\n    } else {\n      startSeamossScrollbar();\n    }\n\n    document.addEventListener('shopify:section:load', startSeamossScrollbar);\n  })();\n</script>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_GFrzia": {
+      "type": "custom-liquid",
+      "name": "Informe Liq",
+      "settings": {
+        "custom_liquid": "<section class=\"seamoss-purity-custom\">\n  <div class=\"seamoss-purity-custom__inner\">\n\n    <div class=\"seamoss-purity-custom__content\">\n      <h2>Pureza y Calidad Garantizada</h2>\n\n      <p class=\"seamoss-purity-custom__highlight\">\n        Utilizamos algas marinas de la más alta pureza, cultivadas en aguas limpias y procesadas bajo estrictos estándares de calidad.\n      </p>\n\n      <p>\n        Cada gominola de Natural Rems está pensada para ofrecer una forma práctica, cómoda y confiable de complementar tu rutina diaria con nutrientes marinos auténticos.\n      </p>\n\n      <p>\n        Nuestra fórmula busca simplificar tu bienestar: sin ingredientes artificiales, sin aftertaste marino y sin complicaciones. Solo nutrientes puros y naturales.\n      </p>\n\n      <p>\n        Una forma más simple, moderna y deliciosa de obtener los beneficios del mar cada día.\n      </p>\n\n      <div class=\"seamoss-purity-custom__quote\">\n        <p>\n          \"Natural Rems es la solución perfecta para obtener los nutrientes del mar de manera práctica, deliciosa y accesible para toda la familia.\"\n        </p>\n\n        <div class=\"seamoss-purity-custom__author\">\n          <div class=\"seamoss-purity-custom__author-info\">\n            <strong>Natural Rems</strong>\n            <span>Gominolas de Algas Marinas</span>\n          </div>\n\n          <img\n            src=\"{{ 'emoji.png' | file_url }}\"\n            alt=\"Gominola Natural Rems\"\n          >\n        </div>\n      </div>\n    </div>\n\n    <div class=\"seamoss-purity-custom__image-box\">\n      <img\n        src=\"{{ 'producto-destacado.jpg' | file_url }}\"\n        alt=\"Reporte de calidad Natural Rems\"\n      >\n\n      <button type=\"button\" class=\"seamoss-purity-custom__link\" onclick=\"document.querySelector('.seamoss-report-popup').classList.add('active')\">\n        <span>→</span>\n        Ver informe completo\n      </button>\n    </div>\n\n  </div>\n</section>\n\n<div class=\"seamoss-report-popup\" onclick=\"this.classList.remove('active')\">\n  <div class=\"seamoss-report-popup__content\" onclick=\"event.stopPropagation()\">\n    <button type=\"button\" class=\"seamoss-report-popup__close\" onclick=\"document.querySelector('.seamoss-report-popup').classList.remove('active')\">\n      ×\n    </button>\n\n    <img\n      src=\"{{ 'producto-destacado.jpg' | file_url }}\"\n      alt=\"Informe completo Natural Rems\"\n    >\n  </div>\n</div>\n\n<style>\n  .seamoss-purity-custom {\n    background: #050b2f;\n    color: #ffffff;\n    padding: 70px 16px;\n  }\n\n  .seamoss-purity-custom__inner {\n    max-width: 1200px;\n    margin: 0 auto;\n    display: grid;\n    grid-template-columns: 1fr 0.95fr;\n    gap: 50px;\n    align-items: center;\n  }\n\n  .seamoss-purity-custom h2 {\n    font-size: 50px;\n    line-height: 1.05;\n    margin: 0 0 30px;\n    color: #ffffff;\n    font-weight: 500;\n  }\n\n  .seamoss-purity-custom p {\n    font-size: 22px;\n    line-height: 1.45;\n    margin: 0 0 26px;\n    color: #ffffff;\n  }\n\n  .seamoss-purity-custom__highlight {\n    color: #73d7ff !important;\n    font-weight: 700;\n  }\n\n  .seamoss-purity-custom__quote {\n    margin-top: 35px;\n    background: #18284d;\n    border: 1px solid rgba(255,255,255,0.15);\n    padding: 30px;\n  }\n\n  .seamoss-purity-custom__quote p {\n    font-size: 22px;\n    margin-bottom: 28px;\n  }\n\n  .seamoss-purity-custom__author {\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    gap: 20px;\n  }\n\n  .seamoss-purity-custom__author-info strong {\n    display: block;\n    font-size: 18px;\n    color: #ffffff;\n  }\n\n  .seamoss-purity-custom__author-info span {\n    display: block;\n    font-size: 16px;\n    color: #ffffff;\n    opacity: 0.9;\n  }\n\n  .seamoss-purity-custom__author img {\n    max-width: 80px;\n    height: auto;\n    display: block;\n  }\n\n  .seamoss-purity-custom__image-box {\n    background: #ffffff;\n    border-radius: 4px;\n    overflow: hidden;\n    box-shadow: 0 20px 50px rgba(0,0,0,0.25);\n  }\n\n  .seamoss-purity-custom__image-box img {\n    display: block;\n    width: 100%;\n    height: auto;\n  }\n\n  .seamoss-purity-custom__link {\n    width: 100%;\n    border: none;\n    cursor: pointer;\n    display: flex;\n    align-items: center;\n    gap: 18px;\n    padding: 24px 32px;\n    color: #050b2f;\n    text-decoration: none;\n    font-size: 20px;\n    font-weight: 500;\n    background: #ffffff;\n    text-align: left;\n  }\n\n  .seamoss-purity-custom__link span {\n    width: 34px;\n    height: 34px;\n    border: 1px solid #050b2f;\n    border-radius: 50%;\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n  }\n\n  .seamoss-report-popup {\n    display: none;\n    position: fixed;\n    z-index: 999999;\n    inset: 0;\n    background: rgba(0,0,0,0.82);\n    padding: 30px 16px;\n    overflow-y: auto;\n  }\n\n  .seamoss-report-popup.active {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n  }\n\n  .seamoss-report-popup__content {\n    position: relative;\n    max-width: 900px;\n    width: 100%;\n  }\n\n  .seamoss-report-popup__content img {\n    width: 100%;\n    height: auto;\n    display: block;\n    background: #ffffff;\n    border-radius: 6px;\n  }\n\n  .seamoss-report-popup__close {\n    position: absolute;\n    top: -18px;\n    right: -12px;\n    width: 38px;\n    height: 38px;\n    border-radius: 50%;\n    border: none;\n    background: #ffffff;\n    color: #050b2f;\n    font-size: 28px;\n    line-height: 1;\n    cursor: pointer;\n  }\n\n  @media screen and (max-width: 768px) {\n    .seamoss-purity-custom {\n      padding: 45px 16px;\n    }\n\n    .seamoss-purity-custom__inner {\n      grid-template-columns: 1fr;\n      gap: 35px;\n    }\n\n    .seamoss-purity-custom h2 {\n      font-size: 36px;\n    }\n\n    .seamoss-purity-custom p,\n    .seamoss-purity-custom__quote p {\n      font-size: 18px;\n    }\n\n    .seamoss-purity-custom__quote {\n      padding: 24px;\n    }\n\n    .seamoss-purity-custom__link {\n      font-size: 17px;\n      padding: 20px;\n    }\n\n    .seamoss-report-popup {\n      padding: 20px 10px;\n      align-items: flex-start;\n    }\n\n    .seamoss-report-popup.active {\n      align-items: flex-start;\n    }\n\n    .seamoss-report-popup__close {\n      top: 8px;\n      right: 8px;\n    }\n  }\n</style>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "collapsible_content_L7qLyC": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_kbNjAh": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Cuántas gominolas debo tomar diariamente?",
+            "icon": "question_mark",
+            "row_content": "<p>Toma <strong>2 gominolas al día</strong> con un vaso de agua, preferiblemente con las comidas. Puedes tomarlas en cualquier momento del día que te convenga. Para obtener todos los beneficios de las algas marinas, mantén una ingesta constante cada día.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_XVtpKn": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Son seguros los suplementos de algas marinas?",
+            "icon": "question_mark",
+            "row_content": "<p>Respuesta corta: SÍ. Las algas marinas son un alimento natural que se consume desde hace siglos y aportan 92 minerales y oligoelementos esenciales. Nuestras gominolas se elaboran con algas de la más alta pureza, sin ingredientes artificiales, por lo que son aptas para la mayoría de las personas como complemento de una dieta equilibrada. Si estás embarazada, en periodo de lactancia o tomas medicación, consulta con tu médico antes de empezar a tomarlas.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_DN7K9X": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Tiene algún efecto secundario?",
+            "icon": "question_mark",
+            "row_content": "<p>Las algas marinas suelen tolerarse muy bien. Al tratarse de un suplemento 100% natural, no suele provocar efectos secundarios cuando se toma en la dosis recomendada. Ten en cuenta que las algas marinas contienen yodo de forma natural, así que si tienes alguna afección de tiroides o tomas medicación, te recomendamos consultar antes con un profesional de la salud.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_W9h9dp": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Cuál es vuestra política de devoluciones?",
+            "icon": "question_mark",
+            "row_content": "<p><strong>Natural Rems</strong> ofrece una garantía de devolución de 90 días sin complicaciones. Si no estás satisfecho con tu compra, solo tienes que avisarnos y te reembolsaremos el importe total de tu pedido.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_kbNjAh",
+        "collapsible_row_XVtpKn",
+        "collapsible_row_DN7K9X",
+        "collapsible_row_W9h9dp"
+      ],
+      "name": "Preguntas frecuentes",
+      "settings": {
+        "caption": "",
+        "heading": "Preguntas frecuentes",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "scheme-3",
+        "color_scheme": "scheme-3",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 12,
+        "padding_bottom": 16
+      }
+    },
+    "17818071906b2f9961": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_NA9FCM": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_NA9FCM"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "disclosures",
+    "related-products",
+    "image_with_text_CAmh7m",
+    "image_with_text_TcAYrQ",
+    "image_with_text_PjYfRW",
+    "image_with_text_g9mGRy",
+    "image_with_text_qbJMjd",
+    "custom_liquid_JNXDPL",
+    "custom_liquid_GFrzia",
+    "collapsible_content_L7qLyC",
+    "17818071906b2f9961"
+  ]
+}
