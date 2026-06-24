@@ -6,10 +6,10 @@
         "slide-0": {
           "type": "slide",
           "settings": {
-            "heading": "Browse our latest products",
+            "heading": "Explora nuestros productos premium",
             "heading_size": "h1",
             "subheading": "",
-            "button_label": "Shop all",
+            "button_label": "Ver todo",
             "link": "shopify://collections/all",
             "button_style_secondary": false,
             "box_align": "middle-left",
@@ -38,7 +38,7 @@
     "featured-collection-0": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "Productos destacados",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
